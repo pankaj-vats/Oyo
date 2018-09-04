@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381E776E20A19F0C00E5B1F5 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E776D20A19F0C00E5B1F5 /* profileVC.swift */; };
+		3822131E20AD87D900BFA091 /* Oyo3CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822131D20AD87D900BFA091 /* Oyo3CollectionView.swift */; };
+		3822132020AD87F300BFA091 /* Oyo3CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822131F20AD87F300BFA091 /* Oyo3CollectionViewCell.swift */; };
+		3822132420AD886700BFA091 /* Oyo3TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822132320AD886700BFA091 /* Oyo3TableViewCell.swift */; };
+		38267542209D874000CC27EF /* CountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38267541209D874000CC27EF /* CountryVC.swift */; };
+		38286D4B2099F24E00822447 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38286D4A2099F24E00822447 /* StartVC.swift */; };
+		389CCB9520A058FD0031C2F0 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CCB9420A058FD0031C2F0 /* MoreVC.swift */; };
+		389CCB9920A080670031C2F0 /* MoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389CCB9820A080670031C2F0 /* MoreTableViewCell.swift */; };
+		389CCB9B20A085BF0031C2F0 /* wallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 389CCB9A20A085BF0031C2F0 /* wallet.png */; };
+		389CCB9D20A088460031C2F0 /* push-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 389CCB9C20A088460031C2F0 /* push-button.png */; };
+		38AD694D20A2F05D00361C76 /* feedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD694C20A2F05D00361C76 /* feedbackVC.swift */; };
+		38BABF482099A20B00D410EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BABF472099A20B00D410EC /* AppDelegate.swift */; };
+		38BABF4A2099A20B00D410EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BABF492099A20B00D410EC /* ViewController.swift */; };
+		38BABF4D2099A20B00D410EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BABF4B2099A20B00D410EC /* Main.storyboard */; };
+		38BABF4F2099A20B00D410EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BABF4E2099A20B00D410EC /* Assets.xcassets */; };
+		38BABF522099A20B00D410EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BABF502099A20B00D410EC /* LaunchScreen.storyboard */; };
+		38BABF5D2099A20B00D410EC /* OyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BABF5C2099A20B00D410EC /* OyoTests.swift */; };
+		38BABF682099A20B00D410EC /* OyoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BABF672099A20B00D410EC /* OyoUITests.swift */; };
+		38BABF782099BAF000D410EC /* background.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 38BABF772099BAF000D410EC /* background.PNG */; };
+		38BABF7A2099C43C00D410EC /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38BABF792099C43C00D410EC /* bg.jpg */; };
+		38C823BC20F5DFDC005F1FA9 /* H2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 38C823BB20F5DFDC005F1FA9 /* H2.jpeg */; };
+		38D0C69C20AD67B80099A778 /* OyoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69420AD67B80099A778 /* OyoCollectionView.swift */; };
+		38D0C69D20AD67B80099A778 /* OyoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69520AD67B80099A778 /* OyoCollectionViewCell.swift */; };
+		38D0C69E20AD67B80099A778 /* OyoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69620AD67B80099A778 /* OyoTableViewCell.swift */; };
+		38D0C69F20AD67B80099A778 /* OyoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69720AD67B80099A778 /* OyoTableView.swift */; };
+		38D0C6A020AD67B80099A778 /* Oyo2CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69920AD67B80099A778 /* Oyo2CollectionView.swift */; };
+		38D0C6A120AD67B80099A778 /* Oyo2CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69A20AD67B80099A778 /* Oyo2CollectionViewCell.swift */; };
+		38D0C6A220AD67B80099A778 /* Oyo2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D0C69B20AD67B80099A778 /* Oyo2TableViewCell.swift */; };
+		38FD60DA209B3F65004733AD /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FD60D9209B3F65004733AD /* flag.png */; };
+		38FD60DC209B3FCF004733AD /* MobileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FD60DB209B3FCF004733AD /* MobileVC.swift */; };
+		C0932B6DC7C8AE5109D873F0 /* Pods_Oyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB650D46BB2F05BCA23B0A3E /* Pods_Oyo.framework */; };
+		D1DEC5C80A86003332E6F832 /* Pods_OyoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696BB4C0F9F6E6CF6162ACA3 /* Pods_OyoUITests.framework */; };
+		F5FC4757515242BCFD621D03 /* Pods_OyoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03CDCE86D5428F738E741AE /* Pods_OyoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38BABF592099A20B00D410EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BABF3C2099A20B00D410EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BABF432099A20B00D410EC;
+			remoteInfo = Oyo;
+		};
+		38BABF642099A20B00D410EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BABF3C2099A20B00D410EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BABF432099A20B00D410EC;
+			remoteInfo = Oyo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381E776D20A19F0C00E5B1F5 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		3822131D20AD87D900BFA091 /* Oyo3CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oyo3CollectionView.swift; sourceTree = "<group>"; };
+		3822131F20AD87F300BFA091 /* Oyo3CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oyo3CollectionViewCell.swift; sourceTree = "<group>"; };
+		3822132320AD886700BFA091 /* Oyo3TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oyo3TableViewCell.swift; sourceTree = "<group>"; };
+		38267541209D874000CC27EF /* CountryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryVC.swift; sourceTree = "<group>"; };
+		38286D4A2099F24E00822447 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		389CCB9420A058FD0031C2F0 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		389CCB9820A080670031C2F0 /* MoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewCell.swift; sourceTree = "<group>"; };
+		389CCB9A20A085BF0031C2F0 /* wallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wallet.png; path = img/wallet.png; sourceTree = SOURCE_ROOT; };
+		389CCB9C20A088460031C2F0 /* push-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "push-button.png"; path = "img/push-button.png"; sourceTree = SOURCE_ROOT; };
+		38AD694C20A2F05D00361C76 /* feedbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = feedbackVC.swift; path = Assets.xcassets/feedbackVC.swift; sourceTree = "<group>"; };
+		38BABF442099A20B00D410EC /* Oyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BABF472099A20B00D410EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BABF492099A20B00D410EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38BABF4C2099A20B00D410EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38BABF4E2099A20B00D410EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BABF512099A20B00D410EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BABF532099A20B00D410EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BABF582099A20B00D410EC /* OyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BABF5C2099A20B00D410EC /* OyoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyoTests.swift; sourceTree = "<group>"; };
+		38BABF5E2099A20B00D410EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BABF632099A20B00D410EC /* OyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BABF672099A20B00D410EC /* OyoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyoUITests.swift; sourceTree = "<group>"; };
+		38BABF692099A20B00D410EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BABF772099BAF000D410EC /* background.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.PNG; path = img/background.PNG; sourceTree = SOURCE_ROOT; };
+		38BABF792099C43C00D410EC /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = img/bg.jpg; sourceTree = SOURCE_ROOT; };
+		38C823BB20F5DFDC005F1FA9 /* H2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = H2.jpeg; sourceTree = "<group>"; };
+		38D0C69420AD67B80099A778 /* OyoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OyoCollectionView.swift; sourceTree = "<group>"; };
+		38D0C69520AD67B80099A778 /* OyoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OyoCollectionViewCell.swift; sourceTree = "<group>"; };
+		38D0C69620AD67B80099A778 /* OyoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OyoTableViewCell.swift; sourceTree = "<group>"; };
+		38D0C69720AD67B80099A778 /* OyoTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OyoTableView.swift; sourceTree = "<group>"; };
+		38D0C69920AD67B80099A778 /* Oyo2CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oyo2CollectionView.swift; sourceTree = "<group>"; };
+		38D0C69A20AD67B80099A778 /* Oyo2CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oyo2CollectionViewCell.swift; sourceTree = "<group>"; };
+		38D0C69B20AD67B80099A778 /* Oyo2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Oyo2TableViewCell.swift; sourceTree = "<group>"; };
+		38FD60D9209B3F65004733AD /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flag.png; path = img/flag.png; sourceTree = SOURCE_ROOT; };
+		38FD60DB209B3FCF004733AD /* MobileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVC.swift; sourceTree = "<group>"; };
+		57C7A87055983B9C52455E97 /* Pods-Oyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oyo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oyo/Pods-Oyo.debug.xcconfig"; sourceTree = "<group>"; };
+		696BB4C0F9F6E6CF6162ACA3 /* Pods_OyoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OyoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80595B136CEF41AB36192FA7 /* Pods-OyoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OyoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OyoTests/Pods-OyoTests.release.xcconfig"; sourceTree = "<group>"; };
+		880E53E08737CE4B05A0C4CD /* Pods-Oyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oyo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oyo/Pods-Oyo.release.xcconfig"; sourceTree = "<group>"; };
+		977BDB7EC21BC7B221415BFF /* Pods-OyoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OyoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OyoUITests/Pods-OyoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC07AF960545BF2E538C9E44 /* Pods-OyoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OyoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OyoTests/Pods-OyoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB650D46BB2F05BCA23B0A3E /* Pods_Oyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D837BDE52833AE48000DCCBE /* Pods-OyoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OyoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OyoUITests/Pods-OyoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F03CDCE86D5428F738E741AE /* Pods_OyoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OyoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BABF412099A20B00D410EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0932B6DC7C8AE5109D873F0 /* Pods_Oyo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BABF552099A20B00D410EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FC4757515242BCFD621D03 /* Pods_OyoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BABF602099A20B00D410EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DEC5C80A86003332E6F832 /* Pods_OyoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3822131C20AD86F300BFA091 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				3822131D20AD87D900BFA091 /* Oyo3CollectionView.swift */,
+				3822131F20AD87F300BFA091 /* Oyo3CollectionViewCell.swift */,
+				3822132320AD886700BFA091 /* Oyo3TableViewCell.swift */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		38BABF3B2099A20B00D410EC = {
+			isa = PBXGroup;
+			children = (
+				38BABF462099A20B00D410EC /* Oyo */,
+				38BABF5B2099A20B00D410EC /* OyoTests */,
+				38BABF662099A20B00D410EC /* OyoUITests */,
+				38BABF452099A20B00D410EC /* Products */,
+				EDA24C92E949C2A6BB928AFB /* Pods */,
+				5796CF0D8DEE0D2EC156F7A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38BABF452099A20B00D410EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BABF442099A20B00D410EC /* Oyo.app */,
+				38BABF582099A20B00D410EC /* OyoTests.xctest */,
+				38BABF632099A20B00D410EC /* OyoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BABF462099A20B00D410EC /* Oyo */ = {
+			isa = PBXGroup;
+			children = (
+				38BABF472099A20B00D410EC /* AppDelegate.swift */,
+				38BABF492099A20B00D410EC /* ViewController.swift */,
+				38BABF4B2099A20B00D410EC /* Main.storyboard */,
+				38AD694C20A2F05D00361C76 /* feedbackVC.swift */,
+				381E776D20A19F0C00E5B1F5 /* profileVC.swift */,
+				38FD60DB209B3FCF004733AD /* MobileVC.swift */,
+				389CCB9420A058FD0031C2F0 /* MoreVC.swift */,
+				38267541209D874000CC27EF /* CountryVC.swift */,
+				38286D4A2099F24E00822447 /* StartVC.swift */,
+				38D0C69220AD67B80099A778 /* TableViewCollectionView */,
+				38BABF4E2099A20B00D410EC /* Assets.xcassets */,
+				38C823BB20F5DFDC005F1FA9 /* H2.jpeg */,
+				389CCB9C20A088460031C2F0 /* push-button.png */,
+				389CCB9A20A085BF0031C2F0 /* wallet.png */,
+				38FD60D9209B3F65004733AD /* flag.png */,
+				38BABF502099A20B00D410EC /* LaunchScreen.storyboard */,
+				38BABF792099C43C00D410EC /* bg.jpg */,
+				38BABF772099BAF000D410EC /* background.PNG */,
+				38BABF532099A20B00D410EC /* Info.plist */,
+				389CCB9820A080670031C2F0 /* MoreTableViewCell.swift */,
+			);
+			path = Oyo;
+			sourceTree = "<group>";
+		};
+		38BABF5B2099A20B00D410EC /* OyoTests */ = {
+			isa = PBXGroup;
+			children = (
+				38BABF5C2099A20B00D410EC /* OyoTests.swift */,
+				38BABF5E2099A20B00D410EC /* Info.plist */,
+			);
+			path = OyoTests;
+			sourceTree = "<group>";
+		};
+		38BABF662099A20B00D410EC /* OyoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38BABF672099A20B00D410EC /* OyoUITests.swift */,
+				38BABF692099A20B00D410EC /* Info.plist */,
+			);
+			path = OyoUITests;
+			sourceTree = "<group>";
+		};
+		38D0C69220AD67B80099A778 /* TableViewCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				38D0C69720AD67B80099A778 /* OyoTableView.swift */,
+				38D0C69320AD67B80099A778 /* First */,
+				38D0C69820AD67B80099A778 /* Second */,
+				3822131C20AD86F300BFA091 /* Third */,
+			);
+			path = TableViewCollectionView;
+			sourceTree = "<group>";
+		};
+		38D0C69320AD67B80099A778 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				38D0C69420AD67B80099A778 /* OyoCollectionView.swift */,
+				38D0C69520AD67B80099A778 /* OyoCollectionViewCell.swift */,
+				38D0C69620AD67B80099A778 /* OyoTableViewCell.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		38D0C69820AD67B80099A778 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				38D0C69920AD67B80099A778 /* Oyo2CollectionView.swift */,
+				38D0C69A20AD67B80099A778 /* Oyo2CollectionViewCell.swift */,
+				38D0C69B20AD67B80099A778 /* Oyo2TableViewCell.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		5796CF0D8DEE0D2EC156F7A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB650D46BB2F05BCA23B0A3E /* Pods_Oyo.framework */,
+				F03CDCE86D5428F738E741AE /* Pods_OyoTests.framework */,
+				696BB4C0F9F6E6CF6162ACA3 /* Pods_OyoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDA24C92E949C2A6BB928AFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57C7A87055983B9C52455E97 /* Pods-Oyo.debug.xcconfig */,
+				880E53E08737CE4B05A0C4CD /* Pods-Oyo.release.xcconfig */,
+				AC07AF960545BF2E538C9E44 /* Pods-OyoTests.debug.xcconfig */,
+				80595B136CEF41AB36192FA7 /* Pods-OyoTests.release.xcconfig */,
+				D837BDE52833AE48000DCCBE /* Pods-OyoUITests.debug.xcconfig */,
+				977BDB7EC21BC7B221415BFF /* Pods-OyoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BABF432099A20B00D410EC /* Oyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BABF6C2099A20B00D410EC /* Build configuration list for PBXNativeTarget "Oyo" */;
+			buildPhases = (
+				6FC3676E94EF31EDD6E4D09C /* [CP] Check Pods Manifest.lock */,
+				38BABF402099A20B00D410EC /* Sources */,
+				38BABF412099A20B00D410EC /* Frameworks */,
+				38BABF422099A20B00D410EC /* Resources */,
+				4F16653F0037DEC24D0100D7 /* [CP] Embed Pods Frameworks */,
+				5E407E841142788B0A132D27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oyo;
+			productName = Oyo;
+			productReference = 38BABF442099A20B00D410EC /* Oyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38BABF572099A20B00D410EC /* OyoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BABF6F2099A20B00D410EC /* Build configuration list for PBXNativeTarget "OyoTests" */;
+			buildPhases = (
+				28C857154BC0011E72367D37 /* [CP] Check Pods Manifest.lock */,
+				38BABF542099A20B00D410EC /* Sources */,
+				38BABF552099A20B00D410EC /* Frameworks */,
+				38BABF562099A20B00D410EC /* Resources */,
+				2EC3DB61B6C2EBEE6BFC150E /* [CP] Embed Pods Frameworks */,
+				20332E95CA9E577AA025BC66 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BABF5A2099A20B00D410EC /* PBXTargetDependency */,
+			);
+			name = OyoTests;
+			productName = OyoTests;
+			productReference = 38BABF582099A20B00D410EC /* OyoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38BABF622099A20B00D410EC /* OyoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BABF722099A20B00D410EC /* Build configuration list for PBXNativeTarget "OyoUITests" */;
+			buildPhases = (
+				AB377EACD5E40675A4AA2DE5 /* [CP] Check Pods Manifest.lock */,
+				38BABF5F2099A20B00D410EC /* Sources */,
+				38BABF602099A20B00D410EC /* Frameworks */,
+				38BABF612099A20B00D410EC /* Resources */,
+				C63F0DA76087FD60219B88D6 /* [CP] Embed Pods Frameworks */,
+				7335A034C4AD5AC706D299C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BABF652099A20B00D410EC /* PBXTargetDependency */,
+			);
+			name = OyoUITests;
+			productName = OyoUITests;
+			productReference = 38BABF632099A20B00D410EC /* OyoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BABF3C2099A20B00D410EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Talent4assure;
+				TargetAttributes = {
+					38BABF432099A20B00D410EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					38BABF572099A20B00D410EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38BABF432099A20B00D410EC;
+					};
+					38BABF622099A20B00D410EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38BABF432099A20B00D410EC;
+					};
+				};
+			};
+			buildConfigurationList = 38BABF3F2099A20B00D410EC /* Build configuration list for PBXProject "Oyo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BABF3B2099A20B00D410EC;
+			productRefGroup = 38BABF452099A20B00D410EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BABF432099A20B00D410EC /* Oyo */,
+				38BABF572099A20B00D410EC /* OyoTests */,
+				38BABF622099A20B00D410EC /* OyoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BABF422099A20B00D410EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BABF7A2099C43C00D410EC /* bg.jpg in Resources */,
+				38BABF522099A20B00D410EC /* LaunchScreen.storyboard in Resources */,
+				389CCB9D20A088460031C2F0 /* push-button.png in Resources */,
+				38C823BC20F5DFDC005F1FA9 /* H2.jpeg in Resources */,
+				38BABF782099BAF000D410EC /* background.PNG in Resources */,
+				38BABF4F2099A20B00D410EC /* Assets.xcassets in Resources */,
+				38BABF4D2099A20B00D410EC /* Main.storyboard in Resources */,
+				38FD60DA209B3F65004733AD /* flag.png in Resources */,
+				389CCB9B20A085BF0031C2F0 /* wallet.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BABF562099A20B00D410EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BABF612099A20B00D410EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20332E95CA9E577AA025BC66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OyoTests/Pods-OyoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28C857154BC0011E72367D37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OyoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC3DB61B6C2EBEE6BFC150E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OyoTests/Pods-OyoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F16653F0037DEC24D0100D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Oyo/Pods-Oyo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oyo/Pods-Oyo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E407E841142788B0A132D27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oyo/Pods-Oyo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC3676E94EF31EDD6E4D09C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oyo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7335A034C4AD5AC706D299C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OyoUITests/Pods-OyoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB377EACD5E40675A4AA2DE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OyoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63F0DA76087FD60219B88D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OyoUITests/Pods-OyoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BABF402099A20B00D410EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BABF4A2099A20B00D410EC /* ViewController.swift in Sources */,
+				38D0C6A120AD67B80099A778 /* Oyo2CollectionViewCell.swift in Sources */,
+				38D0C69D20AD67B80099A778 /* OyoCollectionViewCell.swift in Sources */,
+				389CCB9520A058FD0031C2F0 /* MoreVC.swift in Sources */,
+				38267542209D874000CC27EF /* CountryVC.swift in Sources */,
+				38BABF482099A20B00D410EC /* AppDelegate.swift in Sources */,
+				381E776E20A19F0C00E5B1F5 /* profileVC.swift in Sources */,
+				3822131E20AD87D900BFA091 /* Oyo3CollectionView.swift in Sources */,
+				389CCB9920A080670031C2F0 /* MoreTableViewCell.swift in Sources */,
+				38D0C69F20AD67B80099A778 /* OyoTableView.swift in Sources */,
+				38FD60DC209B3FCF004733AD /* MobileVC.swift in Sources */,
+				38AD694D20A2F05D00361C76 /* feedbackVC.swift in Sources */,
+				38D0C69C20AD67B80099A778 /* OyoCollectionView.swift in Sources */,
+				38D0C6A020AD67B80099A778 /* Oyo2CollectionView.swift in Sources */,
+				3822132020AD87F300BFA091 /* Oyo3CollectionViewCell.swift in Sources */,
+				38286D4B2099F24E00822447 /* StartVC.swift in Sources */,
+				38D0C6A220AD67B80099A778 /* Oyo2TableViewCell.swift in Sources */,
+				3822132420AD886700BFA091 /* Oyo3TableViewCell.swift in Sources */,
+				38D0C69E20AD67B80099A778 /* OyoTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BABF542099A20B00D410EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BABF5D2099A20B00D410EC /* OyoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BABF5F2099A20B00D410EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BABF682099A20B00D410EC /* OyoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38BABF5A2099A20B00D410EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BABF432099A20B00D410EC /* Oyo */;
+			targetProxy = 38BABF592099A20B00D410EC /* PBXContainerItemProxy */;
+		};
+		38BABF652099A20B00D410EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BABF432099A20B00D410EC /* Oyo */;
+			targetProxy = 38BABF642099A20B00D410EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38BABF4B2099A20B00D410EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BABF4C2099A20B00D410EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38BABF502099A20B00D410EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BABF512099A20B00D410EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BABF6A2099A20B00D410EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38BABF6B2099A20B00D410EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BABF6D2099A20B00D410EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C7A87055983B9C52455E97 /* Pods-Oyo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZP83ZH2VF;
+				INFOPLIST_FILE = Oyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent4assure.Oyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38BABF6E2099A20B00D410EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880E53E08737CE4B05A0C4CD /* Pods-Oyo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZP83ZH2VF;
+				INFOPLIST_FILE = Oyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent4assure.Oyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38BABF702099A20B00D410EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC07AF960545BF2E538C9E44 /* Pods-OyoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZP83ZH2VF;
+				INFOPLIST_FILE = OyoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent4assure.OyoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oyo.app/Oyo";
+			};
+			name = Debug;
+		};
+		38BABF712099A20B00D410EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80595B136CEF41AB36192FA7 /* Pods-OyoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZP83ZH2VF;
+				INFOPLIST_FILE = OyoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent4assure.OyoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oyo.app/Oyo";
+			};
+			name = Release;
+		};
+		38BABF732099A20B00D410EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D837BDE52833AE48000DCCBE /* Pods-OyoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZP83ZH2VF;
+				INFOPLIST_FILE = OyoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent4assure.OyoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oyo;
+			};
+			name = Debug;
+		};
+		38BABF742099A20B00D410EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977BDB7EC21BC7B221415BFF /* Pods-OyoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZP83ZH2VF;
+				INFOPLIST_FILE = OyoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talent4assure.OyoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oyo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BABF3F2099A20B00D410EC /* Build configuration list for PBXProject "Oyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BABF6A2099A20B00D410EC /* Debug */,
+				38BABF6B2099A20B00D410EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BABF6C2099A20B00D410EC /* Build configuration list for PBXNativeTarget "Oyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BABF6D2099A20B00D410EC /* Debug */,
+				38BABF6E2099A20B00D410EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BABF6F2099A20B00D410EC /* Build configuration list for PBXNativeTarget "OyoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BABF702099A20B00D410EC /* Debug */,
+				38BABF712099A20B00D410EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BABF722099A20B00D410EC /* Build configuration list for PBXNativeTarget "OyoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BABF732099A20B00D410EC /* Debug */,
+				38BABF742099A20B00D410EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38BABF3C2099A20B00D410EC /* Project object */;
+}

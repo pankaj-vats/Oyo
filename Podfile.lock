@@ -1,0 +1,12 @@
+PODS:
+  - ParallaxHeader (1.0.6)
+
+DEPENDENCIES:
+  - ParallaxHeader (~> 1.0.6)
+
+SPEC CHECKSUMS:
+  ParallaxHeader: 18ef35dfee4e565e2ef8b8d21c16d856ab1f424a
+
+PODFILE CHECKSUM: 831198d34ccf48bf7574bd8591d4d60464a1be75
+
+COCOAPODS: 1.4.0
